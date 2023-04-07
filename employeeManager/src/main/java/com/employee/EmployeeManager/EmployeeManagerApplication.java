@@ -1,4 +1,4 @@
-package dev.fullStackApp.employeeManager;
+package com.employee.EmployeeManager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,6 +8,7 @@ public class EmployeeManagerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeeManagerApplication.class, args);
+		System.out.println("App is running");
 	}
 
 }
