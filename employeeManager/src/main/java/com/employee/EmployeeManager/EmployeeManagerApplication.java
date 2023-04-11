@@ -25,6 +25,7 @@ public class EmployeeManagerApplication implements CommandLineRunner{
 //		
 //		Employee emp2 = new Employee("Ermiyas", "Dejene", "ermi@jmail.com");
 //		employeeRepository.save(emp2);
+		
 //		Employee emp3 = new Employee("Ammanuel", "Dejene", "aman@jmail.com");
 //		employeeRepository.save(emp3);
 //		

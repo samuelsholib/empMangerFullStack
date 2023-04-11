@@ -9,8 +9,14 @@ import com.employee.EmployeeManager.entity.Employee;
 @Service
 public interface EmployeeService {
 
-	// To get all employees
 	public List<Employee> getAllEmployees();
+	
+	Employee getEmployeeById(Long id);
 
 	Employee addEmployee(Employee employee);
-}
+	
+	Employee updateEmployee(Employee employee);
+
+	void deleteEmployeeById(Long id);
+
+	}
